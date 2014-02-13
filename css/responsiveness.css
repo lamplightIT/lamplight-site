@@ -1,12 +1,23 @@
 @media (min-width: 1200px) {
+  html, body {
+    height: 100%; }
+
   .centered {
     margin-right: auto;
     margin-left: auto;
-    width: 1200px; }
+    width: 1200px;
+    height: 100%; }
+
+  .fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0; }
 
   .page-wrap {
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    height: 100%; }
     .page-wrap .header {
       background-color: #1b1b1b;
       border-color: #252525; }
@@ -22,4 +33,10 @@
             .page-wrap .header .nav ul.menu li a {
               display: block;
               color: #999999;
-              text-decoration: none; } }
+              text-decoration: none; }
+    .page-wrap .content {
+      height: 100%; }
+      .page-wrap .content .page {
+        width: 1200px;
+        height: 100%;
+        margin-bottom: 10px; } }
