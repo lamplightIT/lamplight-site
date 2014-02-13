@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Fernando Boose -- CEO -- @mongocoder
 
 # THANKS
 
-    <name>
+    Dem buds <3
 
 # TECHNOLOGY COLOPHON
 

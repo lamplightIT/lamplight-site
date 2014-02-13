@@ -1,41 +1,74 @@
-html, body {
-  height: 100%; }
+/*
+Syntax error: Undefined variable: "$primary".
+        on line 26 of sass/wide.scss
 
-.centered {
-  margin-right: auto;
-  margin-left: auto;
-  width: 1200px;
-  height: 100%; }
+21: 	margin-left: auto;
+22: 	margin-right: auto;
+23: 	height: 100%;
+24: 	// top menu
+25: 	.header {
+26: 		background-color: $primary;
+27: 		border-color: $detail;
+28: 
+29: 		.nav {
+30: 			width: 100%;
+31: 			height: 41px;
 
-.fixed-top {
-  position: fixed;
-  right: 0;
-  left: 0;
-  top: 0; }
-
-.page-wrap {
-  margin-left: auto;
-  margin-right: auto;
-  height: 100%; }
-  .page-wrap .header {
-    background-color: #1b1b1b;
-    border-color: #252525; }
-    .page-wrap .header .nav {
-      width: 100%;
-      height: 41px; }
-      .page-wrap .header .nav .collapse {
-        position: relative; }
-      .page-wrap .header .nav ul.menu {
-        margin: 0px; }
-        .page-wrap .header .nav ul.menu li {
-          display: inline-block; }
-          .page-wrap .header .nav ul.menu li a {
-            display: block;
-            color: #999999;
-            text-decoration: none; }
-  .page-wrap .content {
-    height: 100%; }
-    .page-wrap .content .page {
-      width: 1200px;
-      height: 100%;
-      margin-bottom: 10px; }
+Backtrace:
+sass/wide.scss:26
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/script/variable.rb:49:in `_perform'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/script/node.rb:40:in `perform'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/root_node.rb:20:in `render'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/engine.rb:315:in `_render'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/engine.rb:262:in `render'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/plugin/compiler.rb:201:in `each'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/plugin/compiler.rb:283:in `block in watch'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/vendor/listen/lib/listen/adapter.rb:198:in `call'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/vendor/listen/lib/listen/adapter.rb:198:in `report_changes'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/vendor/listen/lib/listen/adapter.rb:210:in `poll_changed_dirs'
+/home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/vendor/listen/lib/listen/adapters/linux.rb:48:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$primary\".\A         on line 26 of sass/wide.scss\A \A 21: 	margin-left: auto;\A 22: 	margin-right: auto;\A 23: 	height: 100%;\A 24: 	// top menu\A 25: 	.header {\A 26: 		background-color: $primary;\A 27: 		border-color: $detail;\A 28: \A 29: 		.nav {\A 30: 			width: 100%;\A 31: 			height: 41px;"; }
