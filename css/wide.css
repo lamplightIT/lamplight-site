@@ -1,21 +1,21 @@
 /*
 Syntax error: Undefined variable: "$primary".
-        on line 26 of sass/wide.scss
+        on line 34 of sass/wide.scss
 
-21: 	margin-left: auto;
-22: 	margin-right: auto;
-23: 	height: 100%;
-24: 	// top menu
-25: 	.header {
-26: 		background-color: $primary;
-27: 		border-color: $detail;
-28: 
-29: 		.nav {
-30: 			width: 100%;
-31: 			height: 41px;
+29: 	margin-left: auto;
+30: 	margin-right: auto;
+31: 	height: 100%;
+32: 	// top menu
+33: 	.header {
+34: 		background-color: $primary;
+35: 		border-color: $detail;
+36: 
+37: 		.nav {
+38: 			width: 100%;
+39: 			height: 41px;
 
 Backtrace:
-sass/wide.scss:26
+sass/wide.scss:34
 /home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/script/variable.rb:49:in `_perform'
 /home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/script/node.rb:40:in `perform'
 /home/fernando/.rvm/gems/ruby-2.1.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
@@ -71,4 +71,4 @@ sass/wide.scss:26
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$primary\".\A         on line 26 of sass/wide.scss\A \A 21: 	margin-left: auto;\A 22: 	margin-right: auto;\A 23: 	height: 100%;\A 24: 	// top menu\A 25: 	.header {\A 26: 		background-color: $primary;\A 27: 		border-color: $detail;\A 28: \A 29: 		.nav {\A 30: 			width: 100%;\A 31: 			height: 41px;"; }
+  content: "Syntax error: Undefined variable: \"$primary\".\A         on line 34 of sass/wide.scss\A \A 29: 	margin-left: auto;\A 30: 	margin-right: auto;\A 31: 	height: 100%;\A 32: 	// top menu\A 33: 	.header {\A 34: 		background-color: $primary;\A 35: 		border-color: $detail;\A 36: \A 37: 		.nav {\A 38: 			width: 100%;\A 39: 			height: 41px;"; }

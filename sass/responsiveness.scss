@@ -1,6 +1,8 @@
 @import '_functions';
 @import '_variables';
 
-@media (min-width: 1200px) {
-	@import 'wide';
-}
+@media (min-width: 1200px) {						@import 'wide';		}
+
+@media (min-width: 800px) and (max-width: 1119px) {	@import 'medium';	}
+
+@media (max-width: 799px) {							@import 'narrow';	}

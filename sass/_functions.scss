@@ -1,6 +1,7 @@
 /* 
 	SET RADIUS OF THE DIV BORDER
 */
+
 @mixin border-radius($radius) {
 
 	-webkit-border-radius: $radius;
@@ -14,6 +15,7 @@
 /* 
 	SET A GRADIENT BG FOR THE DIV
 */
+
 @mixin gradient($startColor, $endColor) {
 
 	background: $startColor;
