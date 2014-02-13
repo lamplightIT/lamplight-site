@@ -10,12 +10,14 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/styles.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+        <link rel="stylesheet" href="css/responsiveness.css">
+
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -23,12 +25,41 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class = "todo">
+        <div class = "page-wrap">
             <div class = "header">
-    
+                <div class = "centered">
+                    <div class = "nav">
+                        <div class = "collapse">
+                            <ul class = "menu">
+                                <li class = "">
+                                    <a href = "#home">Home</a>
+                                <li class = "">
+                                    <a href = "#who-we-are">Quem somos?</a>
+                                </li>
+                                <li class = "">
+                                    <a href = "#what-we-do">O que fazemos?</a>
+                                </li>
+                                <li class = "">
+                                    <a href = "#how-we-do">Como fazemos?</a>
+                                <li class = "">
+                                    <a href = "#services">Serviços?</a>
+                                <li class = "">
+                                    <a href = "#talk-to-us">Fale Conosco</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class = "content">
-                
+                <div class = "centered">
+                    <div id = "home" class = "page"></div>
+                    <div id = "who-we-are" class = "page"></div>
+                    <div id = "what-we-do" class = "page"></div>
+                    <div id = "how-we-do" class = "page"></div>
+                    <div id = "services" class = "page"></div>
+                    <div id = "talk-to-us" class = "page"></div>
+                </div>
             </div>
             <div class = "footer">
 
