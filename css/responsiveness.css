@@ -11,20 +11,17 @@
 	FONTS FAMILY
 */
 @media (min-width: 1200px) {
-  html, body {
-    height: 100%; }
-
   .centered {
     margin-right: auto;
     margin-left: auto;
-    width: 1200px;
-    height: 100%; }
+    width: 1200px; }
 
   .fixed-top {
     position: fixed;
     right: 0;
     left: 0;
-    top: 0; }
+    top: 0;
+    z-index: 1100; }
 
   .page-header {
     padding-top: 90px;
@@ -33,10 +30,16 @@
     margin: 40px 0 20px;
     border-bottom: 1px solid #eee; }
 
+  input {
+    outline: none;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    height: 30px;
+    padding: 4px 6px; }
+
   .page-wrap {
     margin-left: auto;
-    margin-right: auto;
-    height: 100%; }
+    margin-right: auto; }
     .page-wrap .header {
       background-color: black;
       border-color: #252525; }
@@ -58,23 +61,42 @@
             .page-wrap .header .nav ul.menu li a:hover {
               background-color: #c3c3c3;
               opacity: 0.3; }
-    .page-wrap .content {
-      height: 100%; }
-      .page-wrap .content .page {
+    .page-wrap .content .page {
+      position: relative;
+      width: 100%;
+      margin-bottom: 10px; }
+      .page-wrap .content .page .banner {
         width: 100%;
-        height: 100%;
-        margin-bottom: 10px; }
-        .page-wrap .content .page .banner {
-          width: 100%;
-          height: 100%;
-          background: #82a8c6;
-          background: -moz-linear-gradient(45deg, #82a8c6 0%, white 100%);
-          background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #82a8c6), color-stop(100%, white));
-          background: -webkit-linear-gradient(45deg, #82a8c6 0%, white 100%);
-          background: -o-linear-gradient(45deg, #82a8c6 0%, white 100%);
-          background: -ms-linear-gradient(45deg, #82a8c6 0%, white 100%);
-          background: linear-gradient(45deg, #82a8c6 0%, white 100%);
-          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$startColor', endColorstr='$endColor',GradientType=1 ); } }
+        background: #82a8c6;
+        background: -moz-linear-gradient(45deg, #82a8c6 0%, white 100%);
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #82a8c6), color-stop(100%, white));
+        background: -webkit-linear-gradient(45deg, #82a8c6 0%, white 100%);
+        background: -o-linear-gradient(45deg, #82a8c6 0%, white 100%);
+        background: -ms-linear-gradient(45deg, #82a8c6 0%, white 100%);
+        background: linear-gradient(45deg, #82a8c6 0%, white 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$startColor', endColorstr='$endColor',GradientType=1 ); }
+      .page-wrap .content .page .contact-section .input-wrap .input.large {
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        border-radius: 4px;
+        width: 300px; }
+      .page-wrap .content .page .contact-section .input-wrap textarea#msg {
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        border-radius: 10px; }
+      .page-wrap .content .page .contact-section .input-wrap label {
+        display: block;
+        font-size: 13px; }
+    .page-wrap .footer {
+      border: 1px solid #e5e5e5;
+      background-color: #f5f5f5;
+      height: 100px;
+      padding: 30px 0px;
+      margin-top: 80px; } }
 @media (max-width: 799px) {
   html {
     background-color: red; } }

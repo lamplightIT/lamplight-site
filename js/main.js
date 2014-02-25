@@ -5,7 +5,7 @@ function scrollToPage(id) {
 
 	var to = ('#'+id);
 
-	$("html").animate({
+	$("body").animate({
 		scrollTop: $(to).offset().top
 	});
 
